@@ -16,12 +16,13 @@
 </style>    
 <pre>
 <?php
-    require_once 'class/Pessoa.php';
-    require_once 'class/Aluno.php';
-    require_once 'class/Bolsista.php';
-    require_once 'class/Tecnico.php';
-    require_once 'class/Professor.php';
-    require_once 'class/Visitante.php';
+    // require_once 'class/Pessoa.php';
+    // require_once 'class/Aluno.php';
+    // require_once 'class/Bolsista.php';
+    // require_once 'class/Tecnico.php';
+    // require_once 'class/Professor.php';
+    // require_once 'class/Visitante.php';
+    require('autoload.php');
 
     // $v1 = new Visitante();
     // $v1->setNome("Maria");

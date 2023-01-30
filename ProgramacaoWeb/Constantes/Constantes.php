@@ -1,5 +1,4 @@
 <?php
-//aula 44
 //Não é necessário instanciar a classe para utilizar a constante dentro da mesma. Uma constante pode ter qualquer visibilidade (public, protected, private)
 class Exemplo1 {
     public const nomeConstante = "Sou constante";

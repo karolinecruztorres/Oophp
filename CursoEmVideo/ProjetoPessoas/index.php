@@ -16,10 +16,11 @@
 </style>    
 <pre>
 <?php
-    require_once 'class/Pessoa.php';
-    require_once 'class/Aluno.php';
-    require_once 'class/Professor.php';
-    require_once 'class/Funcionario.php';
+    // require_once 'class/Pessoa.php';
+    // require_once 'class/Aluno.php';
+    // require_once 'class/Professor.php';
+    // require_once 'class/Funcionario.php';
+    require('autoload.php');
 
     $p1 = new Pessoa();
     $p2 = new Aluno();

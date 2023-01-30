@@ -8,5 +8,4 @@ $carro->teste();
 echo "<br>";
 
 $fruta = new Fruta();
-$fruta->teste();
-
+$fruta->teste(); 

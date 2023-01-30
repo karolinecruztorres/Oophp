@@ -16,10 +16,11 @@
 </style>    
 <pre>
 <?php
-    require_once 'class/Video.php';
-    require_once 'class/Gafanhoto.php';
-    require_once 'class/Visualizacao.php';
-    
+    // require_once 'class/Video.php';
+    // require_once 'class/Gafanhoto.php';
+    // require_once 'class/Visualizacao.php';
+    require('autoload.php');
+
     $v[0] = new Video("Aula 1 de POO");
     $v[1] = new Video("Aula 12 de PHP");
     $v[2] = new Video("Aula 15 de HTML");

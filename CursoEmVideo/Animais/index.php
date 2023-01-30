@@ -16,16 +16,17 @@
 </style>    
 <pre>
 <?php
-    require_once 'class/Mamifero.php';
-    require_once 'class/Reptil.php';
-    require_once 'class/Peixe.php';
-    require_once 'class/Ave.php';
-    require_once 'class/Canguru.php';
-    require_once 'class/Cachorro.php';
-    require_once 'class/Cobra.php';
-    require_once 'class/Tartaruga.php';
-    require_once 'class/PeixeDourado.php';
-    require_once 'class/Arara.php';
+    // require_once 'class/Mamifero.php';
+    // require_once 'class/Reptil.php';
+    // require_once 'class/Peixe.php';
+    // require_once 'class/Ave.php';
+    // require_once 'class/Canguru.php';
+    // require_once 'class/Cachorro.php';
+    // require_once 'class/Cobra.php';
+    // require_once 'class/Tartaruga.php';
+    // require_once 'class/PeixeDourado.php';
+    // require_once 'class/Arara.php';
+    require('autoload.php');
 
     $m = new Mamifero();
     $r = new Reptil();
