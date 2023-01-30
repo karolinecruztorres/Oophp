@@ -34,6 +34,12 @@
     //print_r($g);
 
     $vis[0] = new Visualizacao($g[0], $v[2]);
+    $vis[1] = new Visualizacao($g[0], $v[1]);
+
+    $vis[0]->avaliar();
+    $vis[1]->avaliarPorcen(85);
+
+
     print_r($vis);
 ?>
 </pre>

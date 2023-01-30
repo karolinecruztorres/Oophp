@@ -39,6 +39,8 @@ class Video implements AcoesVideo {
     } 
     public function setAvaliacao($avaliacao)
     {
+        //Concertar esta função, a média não está funcionando corretamente. Ver comentários do vídeo https://www.youtube.com/watch?v=AfRyRBVETO8&list=PLHz_AreHm4dmGuLII3tsvryMMD7VgcT7x&index=31
+        $media = ($this->avaliacao + $avaliacao) / $this->views;
         $this->avaliacao = $avaliacao;
     }
     public function getViews()

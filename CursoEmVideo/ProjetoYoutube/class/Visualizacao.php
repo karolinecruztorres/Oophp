@@ -8,16 +8,30 @@ class Visualizacao {
     public function __construct($espectador, $filme){
         $this->espectador = $espectador;
         $this->filme = $filme;
+        $this->filme->setViews($this->filme->getViews() + 1);
+        $this->espectador->setTotAssistido($this->espectador->getTotAssistido() + 1);
     }
 
     public function avaliar(){
-
+        $this->filme->setAvaliacao(5);
     }
+
     public function avaliarNota($nota){
-
+        $this->filme->setAvaliacao($nota);
     }
+    
     public function avaliarPorcen($porcen){
-        
+        $nova = 0;
+        if ($porcen <= 20) {
+            $nova = 3;
+        } elseif ($porcen <= 50) {
+            $nova = 5;
+        } elseif ($porcen <= 90) {
+            $nova = 8;
+        } else {
+            $nova = 10;
+        }
+        $this->filme->setAvaliacao($nova);
     }
 
     public function getEspectador()
